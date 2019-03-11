@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+#top-image {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+  ), url('../images/mountains_light_sun_sky_clouds_114136_2560x1080.jpg') no-repeat fixed;
+  position:fixed ;
+  top:0;
+  width:100%;
+  z-index:0;
+  height:100%;
+}
+
+.jumbotron {
+  background-color: transparent !important;
+  color: white !important;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+#content {
+  width: 800px;
+  transform: 			translateY(-50%);
+  top: 30%;
+  position: relative;
+}
+.container {
+                display: table;
+                width: 80%;
+            }
+             
+            .container .left,
+            .container .right {
+                display: table-cell;
+            }
+             
+            .container .left {
+                width: 50%;
+               # background: pink;
+            }
+             
+            .container .right {
+            position:absolute;
+            margin-top:20px;
+            top:30px;
+                width: 30%;
+                left:380px;
+               # background: deeppink;
+            }
+            .container .absolute{
+            margin:100px 350px;
+            	height:100px;
+				width:600px;
+				position:absolute;
+				top:40px;
+				left:40px;
+            }
+            .container .position2{
+            margin:0px 200px;
+            	height:100px;
+				width:600px;
+				position:absolute;
+				top:0px;
+				left:700px;
+            }
+
